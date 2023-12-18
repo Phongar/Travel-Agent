@@ -1,0 +1,52 @@
+.author-01 {
+    display: flex;
+    padding-top: 20px;
+}
+
+.card__review-05 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+.coment-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.author-03 {
+    width: 56px ;
+    height: 56px;
+    border-radius: 100px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.author__block-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.author__block-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+.author-09 {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.author-09-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}

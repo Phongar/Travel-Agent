@@ -1,0 +1,118 @@
+.discover__form {
+    margin-top: 40px;
+    display: grid;
+    padding: 12px 16px;
+    grid-template-columns: 1fr auto 1fr auto;
+    align-items: center;
+    gap: 16px;
+
+    border-radius: 16px;
+    border: 1px solid rgba(144, 144, 144, 0.30);
+    background: #FFF;
+}
+
+
+.form__label {
+    position: relative;
+    padding-left: 36px;
+
+    display: grid;
+    gap: 8px;
+
+    // background-image: url(./../img/icons/map.svg);
+    // background-position: 0 0;
+    // background-size: auto;
+    // background-repeat: no-repeat;
+
+    span {
+        color: var(--header-text-color);
+        
+        font-size: 16px;
+       
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.label__img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__input {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+
+    &::placeholder {
+        color: var(--text-muted);
+    }
+}
+
+.form__devider{
+    width: 1px;
+    height: 24px;
+    background: #909090;
+}
+.form__btn {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #35AFF4;
+}
+
+.search_img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.discover__text {
+    padding-top: 24px;
+    max-width: 560px;
+}
+
+.text {
+    color: var(--text-muted);
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 150%;
+}
+
+.discover__desc {
+    position: relative;
+    padding-top: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}    
+
+.discover__title {
+    max-width: 560px;
+}
+.title-1 {
+    color: var( --header-text-color);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-decor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 262px;
+    z-index: -1;
+}

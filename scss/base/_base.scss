@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;  
+}
+
+body {
+    background-color: var(--page-bg);
+    font-family: var(--font-main);
+    color: var(--text-color); 
+}
+
+
+
+img {
+    display: block;
+}
+
+.title-1 {
+    color: var( --header-text-color);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-3 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text {
+    color: var(--text-muted);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; /* 27px*/
+
+    p + p {
+        margin-top: 1em;
+    }
+}
+
+.muted {
+    color: var(--text-muted);
+}
+
+.star__off {
+    width: 18px;
+    height: 20px;
+}
+

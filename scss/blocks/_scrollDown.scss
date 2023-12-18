@@ -1,0 +1,39 @@
+.scroll__down {
+    position: relative;
+    display: inline-block;
+}
+
+
+.scroll-down__text {
+    animation: rotation 10s linear 0s infinite running normal;
+}
+
+
+.scroll-down__icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    top: 25px;
+}
+
+//вращение по кругу
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*Вращение Анимашка
+rotation-название
+duration-длительность
+timing-function-linear(линейно без ускорений и тд)
+delay-задержка
+iteration-count-сколько раз должен крутится
+direction -направление(running)по кругу
+fill-mode-normal
+*/

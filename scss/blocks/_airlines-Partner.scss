@@ -1,0 +1,38 @@
+.travel__partners {
+    display: flex;
+    width: 1440px;
+    padding: 60px 120px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+
+    
+}
+
+.first__partner {
+    margin-top: 63px;
+    width: 320px;
+    flex-shrink: 0;
+    color: var(--partners-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 33.6px */ 
+}
+
+
+.airlines {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.second__partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 32px;
+}

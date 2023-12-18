@@ -1,0 +1,53 @@
+.coments {
+    display: flex;
+    margin-left: 120px;
+}
+
+.coments__grid {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;  
+}
+
+.coments__col {
+    display: grid;
+    gap: 32px;
+
+    animation: slideUp 20s linear infinite ;
+
+    &:nth-child(2) {
+        padding-top: 100px;
+    }
+
+    &:nth-child(3) {
+        padding-top: 50px;
+    }
+}
+
+@keyframes slideUp {
+
+    0% {
+        transform: translateY(0%);
+    }
+    95% {
+        transform: translateY(-50%);
+        opacity: 1;
+        filter: blur(0px);
+    }
+    97% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    98% {
+        transform: translateY(0%);
+        opacity: 0;
+        filter: blur(10px);
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+}

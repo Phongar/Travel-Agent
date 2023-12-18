@@ -1,0 +1,21 @@
+.btn__login {
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    color: var(--button-color);
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 150%; /* 24px */
+
+    border-radius: 8px;
+    border: 1px solid var(--button-border-color);
+
+    &:hover{
+        content: "";
+        background-color: #999797;
+        transition: 0.4s ease-in-out;
+    }
+}

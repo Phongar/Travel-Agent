@@ -1,0 +1,96 @@
+.footer {
+    display: flex;
+    //width: 1440px;
+    padding: 80px 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+
+    background-color: var(--footer-bg);
+
+    color: var(--footer-color);
+
+    //футре н всю ширину экрана
+    position: absolute;
+    left: 0;
+    width: 191vh;
+}
+
+.footer__row {
+    display: flex;
+    height: 248px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 128px;
+    align-self: stretch;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+
+    margin-left: 180px;
+}
+
+.footer__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%;
+    width: 300px;
+    height: 72px;
+}
+
+.footer__form {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+    margin-left: -10px; 
+}
+
+.footer__company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 550px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0; 
+    
+    margin-left: 295px;
+
+    cursor: pointer;
+}
+
+.footer__sub-text {
+    flex: 1 0 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; /* 24px */
+
+}
+
+.footer__help {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex: 1 0 0;
+    margin-left: 120px;
+    cursor: pointer;
+
+}
+
+.footer__sub-text-hepl {
+    flex: 1 0 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; /* 24px */
+}
